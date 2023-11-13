@@ -33,8 +33,10 @@ export const theme = {
     gray700: "#424449",
     gray800: "#1D1E21",
     gray900: "#141518",
-    primary: "#F83600",
-    secondary: "#FE8C00",
+    primary: "#D8A747",
+    secondary: "#F2AF52",
+    plus: "#b68034",
+    background: "#e6f0fa",
   },
   fontFamily: {
     heading: ["IBM Plex Sans", "sans-serif"].join(","),
