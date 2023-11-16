@@ -6,6 +6,8 @@ import Body from "../../components/body";
 // eslint-disable-next-line import/no-named-as-default
 import Patrocinadores from "../../components/patrocinadores";
 import Whatsapp from "../../components/whatsapp";
+import Musica from "../../components/musica";
+import Contato from "../../components/whatsapp/contatos";
 
 export default function Main() {
   return (
@@ -14,6 +16,8 @@ export default function Main() {
       <Body />
       <Patrocinadores />
       <Whatsapp />
+      <Musica />
+      <Contato />
     </Container>
   );
 }

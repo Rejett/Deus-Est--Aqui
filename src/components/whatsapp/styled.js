@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const WhatsAppButtonContainer = styled.div`
   position: fixed;
-  bottom: 20px;
+  bottom: 60px;
   right: 20px;
   cursor: pointer;
   z-index: 1000; // Certifique-se de que está acima de outros elementos, se necessário
