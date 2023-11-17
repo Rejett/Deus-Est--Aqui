@@ -8,6 +8,7 @@ import Patrocinadores from "../../components/patrocinadores";
 import Whatsapp from "../../components/whatsapp";
 import Musica from "../../components/musica";
 import Contato from "../../components/whatsapp/contatos";
+import Footer from "../../components/footer";
 
 export default function Main() {
   return (
@@ -18,6 +19,7 @@ export default function Main() {
       <Whatsapp />
       <Musica />
       <Contato />
+      <Footer />
     </Container>
   );
 }

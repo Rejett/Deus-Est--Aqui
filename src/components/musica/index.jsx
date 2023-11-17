@@ -9,7 +9,7 @@ import { BottomBarWrapper, Loading } from './styles';
 export default function Musica() {
   const [musicaRadio, setMusicaRadio] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [isPlaying, setIsPlaying] = useState(true);
+  const [isPlaying, setIsPlaying] = useState(false);
 
   useEffect(() => {
     const fetchData = async () => {
