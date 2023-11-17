@@ -44,6 +44,7 @@ export const BottomBarWrapper = styled.div`
   @media screen and (max-width: 728px){
     width: 100%;
     margin-left: 0rem;
+    top: none;
     bottom: 0;
     h1{
       font-size: 1rem;
@@ -70,14 +71,11 @@ export const Loading = styled.div`
 
   z-index: 99999;
 
-  @media screen and (max-width: 900px){
-    width: 100%;
-    margin-left: 0rem;
-  }
-
   @media screen and (max-width: 728px){
+    opacity: 80%;
     width: 100%;
     margin-left: 0rem;
+    top: none;
     bottom: 0;
   }
 `;

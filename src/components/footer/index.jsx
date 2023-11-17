@@ -38,7 +38,7 @@ function MapContainer() {
     };
   }, []);
 
-  return <div id="map" style={{ height: '400px' }}></div>;
+  return <div id="map" style={{ height: '200px' }}></div>;
 };
 
 
@@ -47,15 +47,13 @@ export default function Footer() {
   return (
     <Container>
       <Painel>
-         <MapContainer id='map'/>
-         <div id='titulo'>
+        <MapContainer id='map'/>
            <div>
             <h1>Deus Está Aqui</h1>
             <div id='texto'>
               <p>A distância total ao redor será de nove quilômetros.
               E daquele momento em diante, o nome da cidade será:
               O Senhor ESTÁ AQUI</p>
-            </div>
          </div>
          </div>
       </Painel>
