@@ -6,18 +6,19 @@ export const Container = styled.header`
   box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.1);
 
   img{
-    margin-left: 50rem;
-    width: 10%;
-    height: auto;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 10%;
+    max-height: auto;
   }
 
   @media screen and (max-width: 768px) {
     height: 70vh;
     img{
-      margin-left: 10rem;
-      margin-top: 2rem;
-      width: 30%;
-      height: auto;
+      max-width: 20%;
+      top: 60%;
     }
   }
 `
@@ -40,8 +41,9 @@ export const Letreiro = styled.div`
   display: flex;
   width: 100%;
   gap: 5rem;
+  justify-content: center;
+  margin: auto;
   margin-top: 15rem;
-  margin-left: 20rem;
   font-size: 5rem;
   font-family: 'Pinyon Script', cursive;
   color: ${({ theme }) => theme.colors.secondary};
@@ -57,7 +59,6 @@ export const Letreiro = styled.div`
   }
 
   @media screen and (max-width: 768px) {
-    margin-left: 0rem;
     width: 15%;
     gap: 1rem;
     h1{
