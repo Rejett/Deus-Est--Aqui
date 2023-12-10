@@ -23,13 +23,14 @@ export const Container = styled.header`
   }
 `
 export const VideoBackground = styled.video`
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
   position: absolute;
+  object-fit: cover;
   top: 0;
   left: 0;
-  z-index: -1; /* Coloca o vídeo atrás dos outros elementos */
+  width: 100%;
+  height: 100%;
+  border: none;
+  z-index: -1;
   filter: grayscale(30%) sepia(15%);
 
   @media screen and (max-width: 768px) {

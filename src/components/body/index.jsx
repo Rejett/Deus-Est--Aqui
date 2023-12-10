@@ -15,7 +15,6 @@ import {
   NuvemInferior
 } from './styles';
 import parceria from '../../assets/parceria.png';
-import logo from '../../assets/radiologo.PNG';
 import nuvem from '../../assets/nuvem.png';
 import montanha from '../../assets/montanha.png';
 
@@ -62,7 +61,7 @@ export default function Body() {
               performance.
             </p>
           </div>
-          <Image src={logo} alt="LogoMarca" />
+          <Image src='https://live.staticflickr.com/65535/53388135567_dd893581f8.jpg' alt="LogoMarca" />
         </Texto>
         <NuvemInferior src={nuvem} alt="nuvem" id="nuvem-inferior"  style={propsSup} ref={refSup}/>
         <LinhaCentro />
