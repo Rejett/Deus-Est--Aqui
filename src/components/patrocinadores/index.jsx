@@ -25,7 +25,8 @@ export default function Patrocinadores() {
           <img className="card-img-top" src='https://live.staticflickr.com/65535/53389492085_05da223f4f.jpg' alt="Imagem de capa do card" />
           <div className="card-body">
             <h1>WME Studio</h1>
-            <p className="card-text">A WME Studio sendo uma empresa parceira e criadora do site, possui uma gama de variedade de prestações de serviço na area de desing, imagem, audiovisual, Programação de sites e aplicativos mobile</p>
+            <p className="card-text">
+A WME Studio, sendo uma empresa parceira e criadora do site, oferece uma ampla variedade de serviços na área de design, imagem, audiovisual, programação de sites e aplicativos móveis.</p>
             <button type='button'><a href="https://wa.me/+5519995792413" target="_blank" rel="noreferrer">Acesse Aqui</a></button>
           </div>
         </div>
@@ -33,7 +34,8 @@ export default function Patrocinadores() {
           <img className="card-img-top" src='https://live.staticflickr.com/65535/53389056211_db0d4fdd24.jpg' alt="Imagem de capa do card" />
           <div className="card-body">
             <h1>AKK -Curso de Inglês-</h1>
-            <p className="card-text">Juntamente de um Porfessor qualificado no qual mora no exterior a muitos anos e com experiência qualificada! com uma nova metodologia de Ensino você terá acesso a um dos melhores cursos de inglês do mundo todo</p>
+            <p className="card-text">
+Juntamente com um professor qualificado que reside no exterior há muitos anos e possui experiência qualificada, e utilizando uma nova metodologia de ensino, você terá acesso a um dos melhores cursos de inglês em todo o mundo.</p>
             <button type='button'><a href="https://wa.me/+5519978070404" target="_blank" rel="noreferrer">Acesse Aqui</a></button>
           </div>
         </div>
@@ -41,7 +43,7 @@ export default function Patrocinadores() {
           <img className="card-img-top" src='https://live.staticflickr.com/65535/53388135572_4121e8abe8.jpg' alt="Imagem de capa do card" />
           <div className="card-body">
           <h1>Bueno`s Pizza Quadrada</h1>
-            <p className="card-text">Você que mora na região de Americana venha conhecer a Pizzaria Bueno`s com sua inovação de pizza em formato Quadrado, ela se destaca por sua massa de extrema qualidade e sabor, com recheios e produtos de qualidade, tudo do bom e do melhor para você e sua família!</p>
+            <p className="card-text">Se você mora na região de Americana, venha conhecer a Pizzaria Bueno s, que inova com suas pizzas em formato quadrado. Destaca-se pela massa de extrema qualidade e sabor, além de recheios e produtos de alta qualidade. Oferecemos o melhor para você e sua família!</p>
             <button type='button'><a href="https://wa.me/+5519993693369" target="_blank" rel="noreferrer">Acesse Aqui</a></button>
           </div>
         </div>
@@ -49,7 +51,7 @@ export default function Patrocinadores() {
           <img className="card-img-top" src='https://live.staticflickr.com/65535/53389056166_400e9888c9.jpg' alt="Imagem de capa do card" />
           <div className="card-body">
           <h1>AmeriTanques</h1>
-            <p className="card-text">VocÊ que tranabalha com caminhões está precisando de uma lavagem? de uma passada na AmeriTaques lavagem interna e externa de qualidade com profissionais eficientes e de confiança o seu caminhão terá um tratamento VIP com tudo do bom e do melhor para seu Caminhão!</p>
+            <p className="card-text">Se você trabalha com caminhões e está precisando de uma lavagem, dê uma passada na AmeriTaques. Oferecemos lavagem interna e externa de qualidade, com profissionais eficientes e confiáveis. Seu caminhão terá um tratamento VIP, com o melhor em produtos e serviços para garantir a satisfação do cliente!</p>
             <button type='button'><a href="https://wa.me/+5519983080086" target="_blank" rel="noreferrer">Acesse Aqui</a></button>
           </div>
         </div>

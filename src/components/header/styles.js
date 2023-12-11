@@ -4,8 +4,11 @@ export const Container = styled.header`
   overflow: hidden;
   height: 100vh;
   box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.1);
-
-  img{
+  background-image: url(${(props) => props.backgroundImage});
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  #logoRadio{
     position: absolute;
     top: 90%;
     left: 50%;
@@ -16,27 +19,12 @@ export const Container = styled.header`
 
   @media screen and (max-width: 768px) {
     height: 70vh;
-    img{
+    #logoRadio{
       max-width: 20%;
       top: 60%;
     }
   }
 `
-export const VideoBackground = styled.video`
-  position: absolute;
-  object-fit: cover;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: none;
-  z-index: -1;
-  filter: grayscale(30%) sepia(15%);
-
-  @media screen and (max-width: 768px) {
-    height: 70vh;
-  }
-`;
 
 export const Letreiro = styled.div`
   display: flex;
